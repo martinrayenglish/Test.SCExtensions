@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+    <Sitecore>
+        <XConnect>
+            <SearchIndexer>
+                <Services>
+                    <IIndexWriterFilterDecorator>
+                        <Type>Sitecore.XConnect.Configuration.ServiceDecorator`2[[Sitecore.Xdb.Collection.Indexing.IIndexWriter, Sitecore.Xdb.Collection], [Test.SCExtensions.Xdb.Collection.Search.Solr.IndexWriterFilterDecorator, Test.SCExtensions]], Sitecore.XConnect.Configuration</Type>
+                        <LifeTime>Singleton</LifeTime>
+                    </IIndexWriterFilterDecorator>
+                </Services>
+            </SearchIndexer>
+        </XConnect>
+    </Sitecore>
+</Settings>
